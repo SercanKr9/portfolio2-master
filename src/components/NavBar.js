@@ -2,7 +2,6 @@ import { useEffect, useState } from 'react';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import logo from '../assets/img/nuray-re.png';
 import navIcon1 from '../assets/img/nav-icon1.svg';
 
 import navIcon3 from '../assets/img/github.svg';
@@ -34,7 +33,7 @@ function NavBar() {
     <Navbar expand="lg" className={scrolled ? "scrolled": ""}>
       <Container>
         <Navbar.Brand href="#home">
-            <img src={logo} alt='Logo'/>
+            
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" >
         <span className='navbar-toggler-icon'></span>
@@ -50,8 +49,8 @@ function NavBar() {
           </Nav>
           <span className='navbar-text'>
             <div className='social-icon'>
-                <a href='https://www.linkedin.com/in/nuray-arisoy-97a484230/'><img src={navIcon1} alt="" /></a>
-                <a href='https://github.com/nurayarisoy'><img src={navIcon3} alt="" /></a>
+                <a href='https://www.linkedin.com/in/sercancosgunkara/'><img src={navIcon1} alt="" /></a>
+                <a href='https://github.com/SercanKr9'><img src={navIcon3} alt="" /></a>
             </div>
             <Nav.Link href='#connect'>
                 <button className="vvd"><span>Let’s Connect</span></button>

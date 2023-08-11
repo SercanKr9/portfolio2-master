@@ -6,10 +6,7 @@ import projImg4 from "../assets/cert/4.png";
 import projImg5 from "../assets/cert/5.png";
 import projImg12 from "../assets/cert/9.png"
 import projImg7 from "../assets/cert/7.png";
-import projImg8 from "../assets/cert/8.png";
-import projImg9 from "../assets/cert/r1.png";
-import projImg10 from "../assets/cert/r2.png";
-import projImg11 from "../assets/cert/r3.png";
+
 
 
 
@@ -29,9 +26,6 @@ export const Certificates = () => {
     
     
       
-    {
-        imgUrl: projImg8,
-      },
       {
         imgUrl: projImg7,
       },
@@ -42,18 +36,6 @@ export const Certificates = () => {
     {
       
       imgUrl: projImg4,
-    },
-    {
-      
-      imgUrl: projImg9,
-    },
-    {
-      
-      imgUrl: projImg10,
-    },
-    {
-      
-      imgUrl: projImg11,
     },
     {
       
@@ -79,13 +61,13 @@ export const Certificates = () => {
                 <Tab.Container id="cer-tabs" defaultActiveKey="first">
                   <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                     <Nav.Item>
-                      <Nav.Link eventKey="first">Web</Nav.Link>
+                      <Nav.Link eventKey="first">Weiterbildung</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
-                      <Nav.Link eventKey="second">Frontend</Nav.Link>
+                      <Nav.Link eventKey="second">Salesforce Developer</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
-                      <Nav.Link eventKey="third">Backend</Nav.Link>
+                      <Nav.Link eventKey="third">Salesforce Admin</Nav.Link>
                     </Nav.Item>
                   </Nav>
                   <Tab.Content id="slideInUp" >

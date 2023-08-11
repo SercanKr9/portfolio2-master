@@ -14,15 +14,15 @@ const Footer = () => {
         <Row className="align-items-center">
           {/* <MailchimpForm /> */}
           <Col size={12} sm={6}>
-            <img src={logo} alt="Logo" />
+            
           </Col>
           <Col size={12} sm={6} className="text-center text-sm-end">
           <div className='social-icon'>
-                <a href='https://www.linkedin.com/in/nuray-arisoy-97a484230/'><img src={navIcon1} alt="" /></a>
+                <a href='https://www.linkedin.com/in/sercancosgunkara/'><img src={navIcon1} alt="" /></a>
                 
-                <a href='https://github.com/nurayarisoy'><img src={navIcon3} alt="" /></a>
+                <a href='https://github.com/SercanKr9'><img src={navIcon3} alt="" /></a>
             </div>
-            <p>Copyright 2022. All Rights Reserved Nuray Arisoy</p>
+            <p>Copyright 2023. All Rights Reserved Sercan Kara</p>
           </Col>
         </Row>
       </Container>

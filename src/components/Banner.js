@@ -13,7 +13,7 @@ export const Banner =()=>{
     const [delta, setDelta] = useState(300 - Math.random() * 100);
     // const [index, setIndex] = useState(1);
     const [, setIndex] = useState(1);
-    const toRotate = [ "React Developer", "Frontend Developer", "Web Developer" ];
+    const toRotate = [ "Salesforce Developer", "Salesforce Administrator"];
     const period = 2000;
   
     useEffect(() => {
@@ -59,9 +59,9 @@ export const Banner =()=>{
                       {({ isVisible }) =>
                       <div className={isVisible ? "animate__animated animate__rollIn" : ""}>
                         <span className="tagline">Welcome to my Portfolio</span>
-                    <h1>{`Hi I'm Nuray`} 
+                    <h1>{`Hi, Ich bin Sercan`} 
                     <h2 className="wrap">{text}</h2></h1>
-                    <p>Web developer; with a passion for building user-friendly programs and resolving defects. Constantly looking for opportunities to grow as technology evolves.
+                    <p>Salesforce Developer uzmaniyim, is ariyorum...
 
                     </p>
                     <Nav.Link href='#connect'>
@@ -72,12 +72,7 @@ export const Banner =()=>{
                       </TrackVisibility>
                     </Col>
                     <Col xs={12} md={6} xl={5}>
-                         <TrackVisibility>
-              {({ isVisible }) =>
-                <div className={isVisible ? "animate__animated animate__zoomIn" : ""}>
-                  <img src={headerImg} alt="Header Img"/>
-                </div>}
-            </TrackVisibility>
+                         
                     </Col>
                 </Row>
             </Container>
